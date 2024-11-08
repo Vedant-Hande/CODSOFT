@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #333;
 }
 
 body {
@@ -9,10 +10,17 @@ body {
 }
 
 .header {
-  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
-  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("path/to/header-background.jpg");
+  background-size: cover;
+  color: #333;
   text-align: center;
   padding: 50px 20px;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
 }
 
 .navbar {
@@ -22,19 +30,10 @@ body {
   padding: 20px 50px;
 }
 
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 20px;
-}
-
-.navbar ul li {
-  display: inline;
 }
 
 .navbar ul li a {
@@ -78,8 +77,10 @@ body {
   text-align: center;
 }
 
-.features .feature {
-  max-width: 300px;
+.feature-image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .about {
@@ -118,7 +119,7 @@ body {
   margin-bottom: 20px;
 }
 
-.services .service {
+.service {
   background-color: white;
   padding: 20px;
   margin: 10px;
@@ -126,9 +127,16 @@ body {
   width: 200px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.services .service h3 {
+.service-image {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service h3 {
   font-size: 24px;
   color: #333;
 }
