@@ -18,8 +18,12 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #ff4a57;
-  padding: 28px;
+  padding: 30px;
 }
+/* 
+header:hover {
+  color: #222;
+} */
 
 nav ul {
   display: flex;
@@ -59,7 +63,12 @@ nav ul li a:hover {
 }
 
 .hero p {
-  color: #bbbbbb;
+  color: beige;
+  background-color: #222;
+  width: 50vw;
+  padding: 10px;
+  border-radius: 1em;
+  margin: auto;
   margin-bottom: 20px;
 }
 
