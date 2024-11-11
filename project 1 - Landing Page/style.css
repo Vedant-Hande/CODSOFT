@@ -8,7 +8,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #e53948;
-  background-color: azure;
+  background-image: url(Images/A\ white\ background\ with\ a\ pattern\ of\ squares\ and\ the\ word\ \ x\ \ on\ it\ _\ Premium\ AI-generated\ image.jpeg);
   /* background-size: 50%; */
   scroll-behavior: smooth;
 }
@@ -76,12 +76,13 @@ nav ul li a:hover {
   border: none;
   color: #ff4a57;
   padding: 10px 20px;
-  border-radius: 1em;
+  border-radius: 1.1em;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .cta:hover {
+  background-color: #ff4a57;
   color: #222;
 }
 .skill-set h2 {
@@ -138,7 +139,7 @@ textarea {
 button {
   background-color: #ff4a57;
   border: none;
-  color: white;
+  color: #222;
   padding: 10px;
   cursor: pointer;
   transition: background 0.3s;
@@ -146,5 +147,6 @@ button {
 }
 
 button:hover {
-  background-color: #e53948;
+  background-color: #222;
+  color: #ff4a57;
 }
