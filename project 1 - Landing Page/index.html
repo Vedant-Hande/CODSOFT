@@ -3,83 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-End Developer Portfolio</title>
+    <title>Vedant Says Game</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-Ho3oSVcD39ft9kr1obgQ5hWbPE1PnTkPfLXNY0lxn5zUVhrl/3Y9s/W9wY6Wb0ljROvYpAeM0+P/pgd+9DkTw=="
-      crossorigin="anonymous" />
   </head>
   <body>
-    <!-- Header Section -->
-    <header>
-      <nav>
-        <h1>Vedant Hande</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <h1>Vedant Says Game</h1>
+    <h2>Press any key to start the game</h2>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <h2>Hello, I'm a Front-End Developer</h2>
-      <p>
-        || Passionate about creating web applications with engaging user
-        experiences ||
-      </p>
-      <button class="cta">Create Journey</button>
-    </section>
-
-    <!-- Skill-Set Section -->
-    <section id="services" class="skill-set">
-      <h2>Skill - Set</h2>
-      <div class="services-container">
-        <div class="service-card" data-aos="fade-up">
-          <h3>Git Version Control</h3>
-          <p>Experienced in version control with Git.</p>
-        </div>
-        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-          <h3>App Design</h3>
-          <p>Creating modern, responsive designs for applications.</p>
-        </div>
-        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-          <h3>Back-end Development</h3>
-          <p>
-            Knowledge of server-side programming for complete web solutions.
-          </p>
-        </div>
-        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-          <h3>Web Development</h3>
-          <p>Full-stack development for high-quality web applications.</p>
-        </div>
-        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-          <h3>Photography</h3>
-          <p>Skilled in photography for enhancing digital presence.</p>
-        </div>
+    <div class="btn-container">
+      <div class="line-one">
+        <div class="btn red" type="button" id="red">1</div>
+        <div class="btn yellow" type="button" id="yellow">2</div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <h2>Connect with me</h2>
-      <form>
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Stay Connected</button>
-      </form>
-    </section>
+      <div class="line-two">
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn purple" type="button" id="purple">4</div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-DBQ6x8jDDuw+FYQ96Fwh/B6z9m4WRTCRQ2Vf8U88ntrHtHtXsO/fcy7Y5mXtXeyzNVZjLVEtknQ+E7tc06mt5Q=="
-      crossorigin="anonymous"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
